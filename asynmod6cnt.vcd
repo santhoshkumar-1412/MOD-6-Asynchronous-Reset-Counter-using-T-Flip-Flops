@@ -1,0 +1,70 @@
+$date
+	Wed Nov 18 10:03:49 2026
+$end
+
+$version
+	Synopsys VCS version W-2024.09-SP2_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 b36dd7a6a7d9b30d $end
+
+
+$scope module mod6_counter_tb $end
+$var wire 3 ! q [2:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+
+$scope module dut $end
+$var wire 3 ! q [2:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % rst $end
+$var wire 1 & rst_cnt $end
+
+$scope module tff0 $end
+$var reg 1 ' q $end
+$var wire 1 ( t $end
+$var wire 1 $ clk $end
+$var wire 1 & rst $end
+$upscope $end
+
+
+$scope module tff1 $end
+$var reg 1 ) q $end
+$var wire 1 * t $end
+$var wire 1 $ clk $end
+$var wire 1 & rst $end
+$upscope $end
+
+
+$scope module tff2 $end
+$var reg 1 + q $end
+$var wire 1 , t $end
+$var wire 1 $ clk $end
+$var wire 1 & rst $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0"
+1%
+1#
+1&
+1(
+0*
+0'
+0)
+0+
+0,
+b000 !
+0$
+$end
